@@ -25,7 +25,7 @@ function App() {
 }
 
 /* PAGE 1 */
-function PageOne({ next }) {
+function PageOne({ next }: { next: () => void }) {
   return (
     <div className="page">
       <h1>Hey Gayatri 💖</h1>
@@ -36,7 +36,7 @@ function PageOne({ next }) {
 }
 
 /* PAGE 2 */
-function PageTwo({ next }) {
+function PageTwo({ next }: { next: () => void }) {
   return (
     <div className="page">
       <h1>Gayatri, You Mean So Much 🌸</h1>
@@ -47,7 +47,7 @@ function PageTwo({ next }) {
 }
 
 /* PAGE 3 */
-function PageThree({ next }) {
+function PageThree({ next }: { next: () => void }) {
   const [sad, setSad] = useState(false);
 
   return (
@@ -73,7 +73,7 @@ function PageThree({ next }) {
 }
 
 /* PAGE 4 */
-function PageFour({ yes }) {
+function PageFour({ yes }: { yes: () => void }) {
   const [noPos, setNoPos] = useState({ top: "60%", left: "55%" });
   const [tries, setTries] = useState(0);
 
