@@ -112,11 +112,11 @@ function PageFour({ yes }: { yes: () => void }) {
 /* PAGE 5 */
 function PageFive() {
   const images = [
-    "/img2.png",
-    "/img1.jpg",
-    "/img4.png",
-    "/img5.jpg",
-    "/img3.jpg",
+    "/my-valentine/img2.png",
+    "/my-valentine/img1.jpg",
+    "/my-valentine/img4.png",
+    "/my-valentine/img5.jpg",
+    "/my-valentine/img3.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
