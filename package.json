@@ -2,7 +2,7 @@
   "name": "my-valentine",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://username.github.io/repository-name",
+  "homepage": "https://s-nitro.github.io/my-valentine",
   "type": "module",
   "scripts": {
     "dev": "vite",
